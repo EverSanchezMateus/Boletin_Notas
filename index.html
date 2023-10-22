@@ -3,29 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boletin de calificaciones</title>
-    <script src="js/javascript.js" defer></script>
-    <link rel="stylesheet" href="css/estilos.css">
+    <title>Boletin 1.2</title>
+    <link rel="stylesheet" href="style.css">
     
 </head>
 <body>
-   <h1>Notas de Boletin</h1>
-     <div class="imput">
-        <input type="number" id="nota" placeholder="Ingresa una nota">
-    </div> 
-    <div class="Button"> 
-     
-        <button class="botones" id="enviar">Enviar Nota</button>
-        <button class="botones" id="mostrarNotas">Mostrar Notas</button>
-        <button class="botones" id="promedio">Promedio Notas</button>
-        <button class="botones" id="aplazado">Aplazo</button>
-        <button class="botones" id="notaAlta">Nota Mayor</button>
+<div id="columna1">    <h1>Boletin Notas</h1>
+    <label for="nombre">Nombre</label>
+    <input type="text" id="nombre" placeholder="Ingrese el nombre">
+    <label for="notaMatematicas">matematicas</label>
+    <input type="text" id="notaMatematicas" placeholder="Ingrese la nota">
+    <label for="notaSociales">Sociales</label>
+    <input type="text" id="notaSociales" placeholder="Ingrese la nota">
+    <label for="notaEspaniol">Español</label>
+    <input type="text" id="notaEspaniol" placeholder="Ingrese la nota">
+    <label for="notaSistemas">Sistemas</label>
+    <input type="text" id="notaSistemas" placeholder="Ingrese la nota">   
+    <label for="notaEstadistica">Estadistica</label>
+    <input type="text" id="notaEstadistica" placeholder="Ingrese la nota"> 
+    <br>
+    <button id="Agregar">Agregar</button>
+    <button id="Promedio">promedios</button>
+    <button id="darNota">mostrar notas</button>
+    <button id="notaMayor">Nota Alta</button>
+    <button id="aplazadoE">Estudiante Aplazados</button></div>
+
+    <div id="columna2"><ul id="informacion">
         
-    
-     </div>
-        <div><ul id="listaNotas"></ul></div>
-    </ul>
+      </ul></div>
     
     
+    <script src="js.js"></script>
 </body>
 </html>
